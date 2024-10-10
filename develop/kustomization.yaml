@@ -5,5 +5,7 @@ resources:
 - deployments/
 - namespaces/
 - network-policies/
+- persistent-volume-claims/
+- persistent-volumes/
 - secrets/
 - services/

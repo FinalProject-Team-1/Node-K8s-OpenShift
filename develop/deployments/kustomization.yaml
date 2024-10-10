@@ -2,3 +2,4 @@ resources:
 - backend-deployment.yaml
 - frontend-deployment.yaml
 - nginx-deployment.yaml
+- redis-deployment.yaml
