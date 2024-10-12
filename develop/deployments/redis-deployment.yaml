@@ -18,6 +18,7 @@ spec:
       containers:
       - name: redis
         image: nexus.mycluster.shop:5000/node-redis:v0.0.1
+        imagePullPolicy: IfNotPresent  # IfNotPresent or Always
         volumeMounts:
         - mountPath: /data
           name: redis-data

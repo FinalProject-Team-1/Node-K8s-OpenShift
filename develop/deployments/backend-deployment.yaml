@@ -18,7 +18,7 @@ spec:
       containers:
       - name: backend
         image: nexus.mycluster.shop:5000/node-backend:v0.0.1
-        imagePullPolicy: Always
+        imagePullPolicy: IfNotPresent  # IfNotPresent or Always
         env:
         - name: PORT
           value: "8000"
