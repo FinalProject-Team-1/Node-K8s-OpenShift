@@ -18,7 +18,7 @@ spec:
       containers:
       - name: frontend
         image: nexus.mycluster.shop:5000/node-frontend:v0.0.1
-        imagePullPolicy: IfNotPresent  # IfNotPresent or Always
+        imagePullPolicy: IfNotPresent # IfNotPresent or Always
         env:
         - name: PORT
           value: "3000"
@@ -44,5 +44,13 @@ spec:
           value: "6379"
         - name: REDIS_SECRET
           value: "20240930ProjectSecretKey"
+        - name: AWS_ACCESS_KEY_ID
+          value: "AKIA2S2Y4ACPBSFS3KQM"
+        - name: AWS_SECRET_ACCESS_KEY
+          value: "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"
+        - name: AWS_DEFAULT_REGION
+          value: "ap-northeast-3"
+        - name: SERVER_TYPE
+          value: "3"
         ports:
         - containerPort: 3000
