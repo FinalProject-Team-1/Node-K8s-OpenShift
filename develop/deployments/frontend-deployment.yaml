@@ -31,9 +31,9 @@ spec:
         - name: BACKEND_PORT
           value: "8000"
         - name: CLIENT_ID
-          value: "_6vvNxz9b7hiBBvaP7T9"
+          value: "CLIENT_ID"
         - name: CLIENT_SECRET
-          value: "j2JaqWr4EH"
+          value: "CLIENT_SECRET"
         - name: REDIRECT_URI
           value: "https://10.123.123.30/naverlogin/login"
         - name: JAVASCRIPT_APPKEY
@@ -45,9 +45,9 @@ spec:
         - name: REDIS_SECRET
           value: "20240930ProjectSecretKey"
         - name: AWS_ACCESS_KEY_ID
-          value: "AKIA2S2Y4ACPBSFS3KQM"
+          value: "AWS_ACCESS_KEY_ID"
         - name: AWS_SECRET_ACCESS_KEY
-          value: "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"
+          value: "AWS_SECRET_ACCESS_KEY"
         - name: AWS_DEFAULT_REGION
           value: "ap-northeast-3"
         - name: SERVER_TYPE
