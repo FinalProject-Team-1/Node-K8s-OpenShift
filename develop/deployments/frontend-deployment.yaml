@@ -37,7 +37,7 @@ spec:
         - name: REDIRECT_URI
           value: "https://10.123.123.30/naverlogin/login"
         - name: JAVASCRIPT_APPKEY
-          value: "8c5d619d1031b451f450fa5338eff279"
+          value: "JAVASCRIPT_APPKEY"
         - name: REDIS_HOST
           value: "redis-server"
         - name: REDIS_PORT
